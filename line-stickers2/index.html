@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line表情貼</title>
+    <link rel="stylesheet" href="./reset.css">
+    <script src="./line.js" defer></script>
+
+    <style>
+        body {
+            background-image: linear-gradient(280deg, #fad0c4 0%, #ffd1ff 100%);;
+            padding: 80px 100px 100px;
+        }
+
+        #mylist {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            width: 15%;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .pic {
+            width: 100%;
+            max-width: 200px;
+            height: 90%;
+            margin: 0 auto;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        li>p {
+            padding: 5px;
+            margin: 0 auto;
+            background-image: linear-gradient(to left, #a18cd1 0%, #fbc2eb 100%);
+            color: #fff;
+            font-size: 12px;
+            text-align: center;
+            width: 90%;
+            max-width: 160px;
+
+
+        }
+
+
+        .title h1 {
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: rgb(253, 42, 158);
+            text-align: center;
+        }
+
+        .title p {
+            color: rgb(78, 18, 90);
+            width: 54%;
+            margin: 0 auto;
+            line-height: 1.5rem;
+        }
+
+        .title h6 {
+            width: 54%;
+            margin: 10px auto;
+            line-height: 1.5rem;
+            text-align: right;
+            font-size: 30px;
+            color: rgb(226, 86, 163);
+            font-weight: 900;
+        }
+
+        .title span {
+            border: 1px solid rgb(226, 86, 163);
+            padding: 0 8px;
+        }
+
+        .title {
+            width: 70%;
+            max-width: 900px;
+            margin: 0 auto;
+            border-left: 2px solid rgb(253, 42, 158);
+            border-right: 2px solid rgb(253, 42, 158);
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>迪士尼公主 表情貼</h1>
+        <p>魅力非凡的迪士尼公主化身為表情貼新登場！表情到位的多位公主搭配童話故事經典元素，讓聊天室優雅有型♪</p>
+        <h6><span>NT.6o</span></h6>
+    </div>
+
+    <ul id="mylist"></ul>
+
+</body>
+
+</html>
